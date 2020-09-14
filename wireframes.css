@@ -1,0 +1,139 @@
+header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    border: 1px gray solid;
+}
+
+section {
+    margin: 10px;
+    border: 1px gray solid;
+    padding: 10px;
+}
+
+h1 {
+    flex: 5;
+}
+
+nav {
+    flex: 1;
+}
+
+button {
+    margin: 0 auto;
+    width: 75px;
+    text-align: center;
+}
+
+fieldset {
+    margin: 0 auto;
+    border: 1px gray solid;
+    max-width: 500px;
+}
+
+#createDeck {
+    height: 400px;
+    max-width: 800px;
+    justify-content: space-around;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#createDeck input, 
+#createDeck select,
+#createDeck textarea {
+    width: 100%
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.mainPage {
+    border: 1px gray solid;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.aboutMain {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.aboutExample {
+
+}
+
+.createDeckPage {
+    height: 600px;
+}
+
+.singleDeck {
+    padding: 20px 30px;
+    border: 1px gray solid;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+
+.registration {
+    border: 1px gray solid;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.form {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+
+.userDecks {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardList {
+    display: flex;
+    flex-direction: column;
+}
+
+.allDecks {
+    height: 500px;
+    max-width: 500px;
+    border: 1px gray solid;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.deck1 {
+
+}
+    
+
+.singleCard {
+    border: 1px gray solid;
+    padding: 20px 30px;
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+.rulesText {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+
+
+

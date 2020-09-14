@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="wireframes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Capstone Wireframe</title>
+</head>
+
+<body>
+    <header>
+        <h1>M:TG Deck Builder</h1>
+        <nav class="navigation alignCenter">
+            <a href="#Login">Login</a>
+            <a href="#Register">Register</a>
+        </nav>
+    </header>
+    <main>
+
+        <section class="alignCenter">
+            <div class="mainPage">
+                <h2>Main Page</h2>
+                <div class="aboutMain">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id odio eu risus pretium tempus
+                        sagittis non ex. Nulla ut consequat diam. Nunc imperdiet velit diam, at semper lectus cursus
+                        quis. Sed tincidunt auctor auctor. Nunc eu elit eget ligula tristique posuere. Aliquam erat
+                        volutpat. Mauris ac felis sed dui dapibus efficitur. Etiam in vestibulum eros, in luctus nulla.
+                        Ut quis cursus nunc. Fusce sit amet risus malesuada, porttitor massa eu, hendrerit risus. Etiam
+                        sed tortor nec lectus sagittis lobortis quis tempor erat. Quisque finibus metus ut magna tempor,
+                        sed posuere sem dignissim.</p>
+                </div>
+                <div class="aboutExample">
+                    <h2>Example Deck</h2>
+                    <img src="placeholder.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="alignCenter">
+            <div class="registration">
+                <h2>Registration Page</h2>
+                <form class="form">
+                        <h2>Create an account below:</h2>
+                        <label for="name">User Name:</label>
+                        <input name="userName" type="text" />
+                        <label for="password">Password:</label>
+                        <input name="userPass" type="text" />
+                        <button type="submit">Register</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="login">
+            <h2>Login Page</h2>
+            <div class="userDecks">
+                <h3>User Decks</h3>
+                <a href="#Deck1">Deck1</a>
+                <a href="#Deck2">Deck2</a>
+            </div>
+            <div class="allDecks alignCenter">
+                <h2>All Decks</h2>
+                <a href="#AllDeck1">AllDeck1</a>
+                <a href="#AllDeck2">AllDeck2</a>
+            </div>
+        </section>
+
+        <section class="deckPage">
+            <h2>Deck Page</h2>
+            <div class="userDecks">
+                <h3>User Decks</h3>
+                <a href="#Deck1">Deck1</a>
+                <a href="#Deck2">Deck2</a>
+            </div>
+            <div class="deck1 alignCenter">
+                <div class="singleDeck">
+                    <p>Deck 1</p>
+                    <div name="combos">
+                        <h3>Combos</h3>
+                        <img src="placeholder.png" alt="">
+                    </div>
+                    <p class="aboutDeck">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id odio eu
+                        risus pretium tempus
+                        sagittis non ex. Nulla ut consequat diam. Nunc imperdiet velit diam, at semper lectus cursus
+                        quis.
+                        Sed tincidunt auctor auctor. Nunc eu elit eget ligula tristique posuere. Aliquam erat volutpat.
+                        Mauris ac felis sed dui dapibus efficitur. Etiam in vestibulum eros, in luctus nulla. Ut quis
+                        cursus
+                        nunc. Fusce sit amet risus malesuada, porttitor massa eu, hendrerit risus. Etiam sed tortor nec
+                        lectus sagittis lobortis quis tempor erat. Quisque finibus metus ut magna tempor, sed posuere
+                        sem
+                        dignissim.</p>
+                    <h3>Card List</h3>
+                    <div class="cardList">
+                        <a href="#card1">Card 1</a>
+                        <a href="#card2">Card 2</a>
+                        <a href="#card3">Card 3</a>
+                    </div>
+                    <div name="about_deck"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cardPage">
+            <h2>Card Page</h2>
+            <div class="userDecks">
+                <h3>User Decks</h3>
+                <a href="#Deck1">Deck1</a>
+                <a href="#Deck2">Deck2</a>
+            </div>
+            <div class="singleCard alignCenter">
+                <h2>Card</h2>
+                <img src="placeholder.png" alt="placeholder">
+                <p class="rulesText">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id odio eu risus pretium tempus
+                    sagittis non ex. Nulla ut consequat diam. Nunc imperdiet velit diam, at semper lectus cursus quis.
+                    Sed tincidunt auctor auctor. Nunc eu elit eget ligula tristique posuere. Aliquam erat volutpat.
+                    Mauris ac felis sed dui dapibus efficitur. Etiam in vestibulum eros, in luctus nulla. Ut quis cursus
+                    nunc. Fusce sit amet risus malesuada, porttitor massa eu, hendrerit risus. Etiam sed tortor nec
+                    lectus sagittis lobortis quis tempor erat. Quisque finibus metus ut magna tempor, sed posuere sem
+                    dignissim.
+                </p>
+            </div>
+        </section>
+
+        <section class="createDeckPage alignCenter">
+            <h2>Create Deck page</h2>
+            <form action="">
+                <fieldset>
+                    <div id="createDeck">
+                        <label for="deckName">Name:</label>
+                        <input name="deckName" type="text" />
+                        <label for="mainDeck">Main Selector:</label>
+                        <select name="mainDeck" class="">
+                            <option value="card1">card1</option>
+                            <option value="card2">card2</option>
+                            <option value="card3">card3</option>
+                        </select>
+                        <button>Add</button>
+                        <div>
+                            <div class="card">Card1
+                                <button>Delete</button>
+                            </div>
+                            <div class="card">Card2
+                                <button>Delete</button>
+                            </div>
+                            <div class="card">Card3
+                                <button>Delete</button>
+                            </div>
+                        </div>
+                        <textarea name="aboutDeck" class="aboutDeck" cols="30" rows="10"></textarea>
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
